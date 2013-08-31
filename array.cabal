@@ -44,9 +44,7 @@ library
       MultiParamTypeClasses,
       FlexibleContexts,
       FlexibleInstances,
-      TypeSynonymInstances
-  if impl(ghc)
-    extensions:
+      TypeSynonymInstances,
       DeriveDataTypeable,
       StandaloneDeriving,
       Rank2Types,
