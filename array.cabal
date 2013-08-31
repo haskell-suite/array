@@ -51,7 +51,8 @@ library
       MagicHash,
       UnboxedTuples,
       ForeignFunctionInterface,
-      UnliftedFFITypes
+      UnliftedFFITypes,
+      BangPatterns
   if os(linux) {
     include-dirs: include ghc-7.6.2_includes_copy_linux32
   }
