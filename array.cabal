@@ -53,9 +53,5 @@ library
       ForeignFunctionInterface,
       UnliftedFFITypes,
       BangPatterns
-  if os(linux) {
-    include-dirs: include ghc-7.6.2_includes_copy_linux32
-  }
-  if os(darwin) {
-    include-dirs: include ghc-7.6.2_includes_copy_darwin
-  }
+
+    include-dirs: include
